@@ -16,6 +16,14 @@
   box-sizing: border-box;
 }
 
+.header .logo::before {
+  content: '';
+  display: block;
+  height: 40px;
+  width: 80px;
+  background: blue;
+}
+
 .header .logo {
   height: 100%;
   width: 60px;
