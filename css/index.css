@@ -9,11 +9,29 @@
   background: lawngreen;
 }
 
+.content .list {
+  display: flex;
+}
+
+.content .list li {
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 40px;
+}
+
 .header {
   height: 60px;
   width: 100%;
   border: 1px solid lightblue;
   box-sizing: border-box;
+}
+
+.header .logo::before {
+  content: '';
+  display: block;
+  height: 40px;
+  width: 80px;
+  background: blue;
 }
 
 .header .logo {
